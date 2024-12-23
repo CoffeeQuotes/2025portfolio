@@ -41,15 +41,7 @@ export default function Contact() {
       setIsSuccess(true)
       toast({
         title: "Message Sent Successfully",
-        description: "Thank you for your message. I'll get back to you soon!",
-        action: {
-          altText: "Success",
-          action: (
-            <div className="flex items-center gap-2 text-green-500">
-              <CheckCircle2 className="h-5 w-5" />
-            </div>
-          )
-        }
+        description: "Thank you for your message. I'll get back to you soon!"
       })
       
       setFormData({ name: '', email: '', message: '' })
@@ -57,7 +49,7 @@ export default function Contact() {
       console.error('Error sending message:', error)
       toast({
         title: "Error",
-        description: "Failed to send message. Please try again later.",
+        description: "Failed to send message. Please try again later."
       })
     } finally {
       setIsLoading(false)
