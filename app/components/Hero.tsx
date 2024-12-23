@@ -97,7 +97,12 @@ export default function Hero() {
                 Contact me here <ArrowRight className="ml-2 h-4 w-4" />
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="rounded-none border-primary text-foreground hover:bg-primary hover:text-primary-foreground" asChild>
+            <Button 
+              size="lg" 
+              variant="default" 
+              className="rounded-none border-primary text-foreground hover:bg-primary hover:text-primary-foreground" 
+              asChild
+            >
               <a href="/professional-cv.docx.pdf" download>
                 Download CV <Download className="ml-2 h-4 w-4" />
               </a>
