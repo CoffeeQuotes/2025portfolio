@@ -42,7 +42,6 @@ export default function Contact() {
       toast({
         title: "Message Sent Successfully",
         description: "Thank you for your message. I'll get back to you soon!",
-        duration: 5000,
         action: {
           altText: "Success",
           action: (
