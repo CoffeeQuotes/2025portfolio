@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Blog from './components/Blog'
 
 export const metadata: Metadata = {
   title: 'Shishir Kumar - Full Stack Developer',
@@ -23,6 +24,7 @@ export default function Home() {
         <Experience />
         <Skills />
         <Projects />
+        <Blog />
         <Contact />
       </main>
       <Footer />

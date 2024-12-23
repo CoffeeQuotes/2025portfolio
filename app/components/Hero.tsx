@@ -4,28 +4,15 @@ import { motion } from 'framer-motion'
 import { Button } from "@/components/ui/button"
 import { Download, ArrowRight, Linkedin, Github } from 'lucide-react'
 import { TypeAnimation } from 'react-type-animation'
+import { SectionBackground } from "./ui/section-background"
 
 export default function Hero() {
   return (
-    <section 
-      id="home" 
-      className="min-h-screen flex items-center justify-center px-4 pt-20 relative"
+    <SectionBackground 
+      imageUrl="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
+      className="min-h-screen flex items-center justify-center"
     >
-      {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
-      >
-        <div className="absolute inset-0 bg-background/80 dark:bg-background/90" />
-      </div>
-
-      {/* Content */}
-      <div className="text-center relative z-10">
+      <div className="text-center">
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
@@ -133,7 +120,7 @@ export default function Hero() {
           </div>
         </motion.div>
       </div>  
-    </section>
+    </SectionBackground>
   )
 }
 
