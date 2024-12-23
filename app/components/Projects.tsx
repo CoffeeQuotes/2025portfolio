@@ -67,21 +67,21 @@ export default function Projects() {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="absolute inset-0 bg-[#565F63]/90 dark:bg-[#1a1a1a]/90" />
+        <div className="absolute inset-0 bg-background/70 dark:bg-background/80" />
       </div>
 
       <div className="container mx-auto relative z-10">
-        <h2 className="text-4xl font-bold mb-8 text-center font-serif text-white">Featured Projects</h2>
+        <h2 className="text-4xl font-bold mb-8 text-center font-serif text-foreground">Featured Projects</h2>
         <div className="grid gap-8 md:grid-cols-2">
           {projects.map((project) => (
-            <Card key={project.title} className="bg-white/10 border-[#B4ADD9]/20">
+            <Card key={project.title} className="bg-background/80 dark:bg-background/60 border-primary/20 backdrop-blur-sm">
               <CardHeader>
-                <CardTitle className="text-white">{project.title}</CardTitle>
-                <CardDescription className="text-white/80">{project.description}</CardDescription>
+                <CardTitle className="text-foreground">{project.title}</CardTitle>
+                <CardDescription className="text-muted-foreground">{project.description}</CardDescription>
               </CardHeader>
               <CardContent>
                 {expandedProject === project.title && (
-                  <ul className="list-disc list-inside mb-4 text-white/90">
+                  <ul className="list-disc list-inside mb-4 text-foreground">
                     {project.details.map((detail, index) => (
                       <li key={index}>{detail}</li>
                     ))}
@@ -89,7 +89,7 @@ export default function Projects() {
                 )}
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
-                    <Badge key={tech} variant="secondary" className="bg-[#B4ADD9] text-[#565F63] dark:text-[#1a1a1a]">{tech}</Badge>
+                    <Badge key={tech} variant="secondary" className="bg-primary text-primary-foreground">{tech}</Badge>
                   ))}
                 </div>
               </CardContent>
@@ -97,7 +97,7 @@ export default function Projects() {
                 <Button 
                   variant="ghost" 
                   onClick={() => toggleProject(project.title)} 
-                  className="text-white hover:text-[#B4ADD9] hover:bg-white/10"
+                  className="text-foreground hover:text-primary hover:bg-card/20"
                 >
                   {expandedProject === project.title ? (
                     <>Less Info <ChevronUp className="ml-2 h-4 w-4" /></>

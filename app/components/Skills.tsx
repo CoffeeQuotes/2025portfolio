@@ -27,11 +27,11 @@ export default function Skills() {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="absolute inset-0 bg-[#565F63]/90 dark:bg-[#1a1a1a]/90" />
+        <div className="absolute inset-0 bg-background/70 dark:bg-background/80" />
       </div>
 
       <div className="container mx-auto relative z-10">
-        <h2 className="text-4xl font-bold mb-12 text-center font-serif text-white">Skills & Technologies</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center font-serif text-foreground">Skills & Technologies</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {Object.entries(skills).map(([category, skillList]) => (
             <motion.div
@@ -42,20 +42,21 @@ export default function Skills() {
               transition={{ duration: 0.5 }}
             >
               <Card 
-                className="h-full bg-white/10 backdrop-blur-sm border-none hover:bg-white/20 transition-colors duration-300"
+                className="h-full bg-background/80 dark:bg-background/60 backdrop-blur-sm border-none hover:bg-background/90 dark:hover:bg-background/70 transition-colors duration-300"
                 onMouseEnter={() => setHoveredCategory(category)}
                 onMouseLeave={() => setHoveredCategory(null)}
               >
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-semibold mb-4 text-white">{category}</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-foreground">{category}</h3>
                   <div className="flex flex-wrap gap-2">
                     {skillList.map((skill) => (
                       <Badge 
+                        key={skill}
                         variant="secondary" 
                         className={`text-sm py-1 px-2 ${
                           hoveredCategory === category
-                            ? 'bg-[#B4ADD9] text-[#565F63] dark:text-[#1a1a1a]'
-                            : 'bg-white/20 text-white'
+                            ? 'bg-primary text-primary-foreground'
+                            : 'bg-card/40 text-foreground dark:text-foreground'
                         } transition-colors duration-300`}
                       >
                         {skill}

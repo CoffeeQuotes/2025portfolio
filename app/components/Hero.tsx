@@ -35,11 +35,11 @@ export default function Hero() {
           <img
             src="https://avatars.githubusercontent.com/u/17348830?v=4"
             alt="Shishir Kumar"
-            className="w-32 h-32 rounded-full border-4 border-[#B4ADD9] shadow-lg"
+            className="w-32 h-32 rounded-full border-4 border-primary shadow-lg"
           />
-          <span className="absolute bottom-0 right-0 w-8 h-8 bg-[#B4ADD9] rounded-full flex items-center justify-center shadow-lg">
+          <span className="absolute bottom-0 right-0 w-8 h-8 bg-primary rounded-full flex items-center justify-center shadow-lg">
             <svg
-              className="w-5 h-5 text-[#565F63]"
+              className="w-5 h-5 text-primary-foreground"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -60,7 +60,7 @@ export default function Hero() {
           className="space-y-4"
         >
           <h1 className="text-4xl md:text-6xl font-bold font-serif">
-            Hello, I'm <span className="text-[#B4ADD9]">Shishir</span>
+            Hello, I'm <span className="text-primary">Shishir</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground">
             a skilled{' '}
@@ -92,12 +92,12 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mt-8">
-            <Button size="lg" className="rounded-none bg-[#B4ADD9] text-[#565F63] hover:bg-[#B4ADD9]/90" asChild>
+            <Button size="lg" className="rounded-none bg-primary text-primary-foreground hover:bg-primary/90" asChild>
               <a href="#contact">
                 Contact me here <ArrowRight className="ml-2 h-4 w-4" />
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="rounded-none border-[#B4ADD9] text-[#565F63] hover:bg-[#B4ADD9] hover:text-white" asChild>
+            <Button size="lg" variant="outline" className="rounded-none border-primary text-foreground hover:bg-primary hover:text-primary-foreground" asChild>
               <a href="/professional-cv.docx.pdf" download>
                 Download CV <Download className="ml-2 h-4 w-4" />
               </a>
@@ -105,7 +105,7 @@ export default function Hero() {
           </div>
 
           <div className="flex justify-center gap-4 mt-8">
-            <Button variant="ghost" size="icon" className="text-[#B4ADD9] hover:text-[#B4ADD9]/90 hover:bg-[#B4ADD9]/10" asChild>
+            <Button variant="ghost" size="icon" className="text-primary hover:text-primary/90 hover:bg-primary/10" asChild>
               <a
                 href="https://www.linkedin.com/in/shishir-kumar-b69b20134/"
                 target="_blank"
@@ -115,7 +115,7 @@ export default function Hero() {
                 <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
-            <Button variant="ghost" size="icon" className="text-[#B4ADD9] hover:text-[#B4ADD9]/90 hover:bg-[#B4ADD9]/10" asChild>
+            <Button variant="ghost" size="icon" className="text-primary hover:text-primary/90 hover:bg-primary/10" asChild>
               <a
                 href="https://github.com/yourgithub"
                 target="_blank"

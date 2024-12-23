@@ -12,7 +12,7 @@ export function ThemeToggle() {
       variant="ghost"
       size="icon"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="text-[#B4ADD9] hover:text-[#B4ADD9]/90 hover:bg-[#B4ADD9]/10"
+      className="text-[#E53E3E] hover:text-[#E53E3E]/90 hover:bg-[#E53E3E]/10"
     >
       <Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
       <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />

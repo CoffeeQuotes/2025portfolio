@@ -6,83 +6,83 @@
 
 @layer base {
   :root {
-    /* Soft sage background with gentle pink undertones */
-    --background: 248 247 245;
-    --foreground: 86 95 99;
+    /* Rich cream background with warm undertones */
+    --background: 242 240 235;
+    --foreground: 45 55 72; /* Updated foreground color (Dark Charcoal Gray) */
     
-    /* Clean white with slightly warmer tone */
-    --card: 252 251 249;
-    --card-foreground: 86 95 99;
+    /* Warm white for cards */
+    --card: 248 246 241;
+    --card-foreground: 45 55 72;
     
     /* Matching popover colors */
-    --popover: 252 251 249;
-    --popover-foreground: 86 95 99;
+    --popover: 248 246 241;
+    --popover-foreground: 45 55 72;
     
-    /* Soft lavender primary */
-    --primary: 180 173 217;
+    /* Updated primary color (Red-Orange) */
+    --primary: 229 62 62; /* Updated primary color */
     --primary-foreground: 255 255 255;
     
-    /* Muted sage secondary */
-    --secondary: 176 200 197;
+    /* Sage green secondary */
+    --secondary: 147 164 153;
     --secondary-foreground: 255 255 255;
     
-    /* Soft gray for muted elements */
-    --muted: 237 236 238;
-    --muted-foreground: 113 121 126;
+    /* Warm gray for muted elements */
+    --muted: 229 226 220;
+    --muted-foreground: 121 127 133;
     
-    /* Gentle peach accent */
-    --accent: 245 212 196;
-    --accent-foreground: 86 95 99;
+    /* Muted terracotta accent */
+    --accent: 219 178 164;
+    --accent-foreground: 45 55 72;
     
-    /* Soft red for destructive actions */
-    --destructive: 243 185 185;
-    --destructive-foreground: 86 95 99;
+    /* Warm rust for destructive actions */
+    --destructive: 226 160 160;
+    --destructive-foreground: 45 55 72;
     
-    /* Subtle borders and inputs */
-    --border: 215 219 220;
-    --input: 215 219 220;
-    --ring: 180 173 217;
+    /* Warmer borders and inputs */
+    --border: 201 197 190;
+    --input: 201 197 190;
+    --ring: 229 62 62; /* Updated primary color for rings */
     
     --radius: 0.5rem;
   }
 
   .dark {
-    /* Dark mode with softer contrasts */
-    --background: 44 46 54;
-    --foreground: 237 236 238;
+    /* Rich dark mode background */
+    --background: 39 41 45;
+    --foreground: 229 226 220;
     
-    /* Darker but not harsh card background */
-    --card: 54 56 64;
-    --card-foreground: 237 236 238;
+    /* Deep slate card background */
+    --card: 47 49 54;
+    --card-foreground: 229 226 220;
     
     /* Matching popover colors */
-    --popover: 54 56 64;
-    --popover-foreground: 237 236 238;
+    --popover: 47 49 54;
+    --popover-foreground: 229 226 220;
     
-    /* Softer primary for dark mode */
-    --primary: 180 173 217;
-    --primary-foreground: 44 46 54;
+    /* Maintaining primary color for consistency */
+    --primary: 229 62 62; /* Same updated primary color */
+    --primary-foreground: 39 41 45;
     
-    /* Muted sage secondary for dark mode */
-    --secondary: 176 200 197;
-    --secondary-foreground: 44 46 54;
+    /* Sage secondary in dark mode */
+    --secondary: 147 164 153;
+    --secondary-foreground: 39 41 45;
     
-    /* Darker muted tones */
-    --muted: 64 66 74;
-    --muted-foreground: 199 200 203;
+    /* Deep muted tones */
+    --muted: 57 59 64;
+    --muted-foreground: 188 190 193;
     
-    /* Softer accent for dark mode */
-    --accent: 245 212 196;
-    --accent-foreground: 44 46 54;
+    /* Maintaining accent color */
+    --accent: 219 178 164;
+    --accent-foreground: 39 41 45;
     
-    /* Gentle destructive color */
-    --destructive: 243 185 185;
-    --destructive-foreground: 44 46 54;
+    /* Warm destructive color */
+    --destructive: 226 160 160;
+    --destructive-foreground: 39 41 45;
     
-    /* Subtle borders and inputs for dark mode */
-    --border: 74 76 84;
-    --input: 74 76 84;
-    --ring: 180 173 217;
+    /* Deeper borders and inputs */
+    --border: 67 69 74;
+    --input: 67 69 74;
+    --ring: 229 62 62; /* Updated primary color for rings */
   }
 }
 
