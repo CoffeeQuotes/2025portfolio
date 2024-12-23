@@ -117,7 +117,7 @@ export default function Hero() {
             </Button>
             <Button variant="ghost" size="icon" className="text-primary hover:text-primary/90 hover:bg-primary/10" asChild>
               <a
-                href="https://github.com/yourgithub"
+                href="https://github.com/CoffeeQuotes"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -127,7 +127,7 @@ export default function Hero() {
             </Button>
           </div>
         </motion.div>
-      </div>
+      </div>  
     </section>
   )
 }
