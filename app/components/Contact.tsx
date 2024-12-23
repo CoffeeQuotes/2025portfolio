@@ -42,6 +42,15 @@ export default function Contact() {
       toast({
         title: "Message Sent Successfully",
         description: "Thank you for your message. I'll get back to you soon!",
+        duration: 5000,
+        action: {
+          altText: "Success",
+          action: (
+            <div className="flex items-center gap-2 text-green-500">
+              <CheckCircle2 className="h-5 w-5" />
+            </div>
+          )
+        }
       })
       
       setFormData({ name: '', email: '', message: '' })
