@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 38 89 82;
+    --card: 255 255 255;
+    --card-foreground: 38 89 82;
+    --popover: 255 255 255;
+    --popover-foreground: 38 89 82;
+    --primary: 203 212 106;
+    --primary-foreground: 38 89 82;
+    --secondary: 38 89 82;
+    --secondary-foreground: 255 255 255;
+    --muted: 240 240 240;
+    --muted-foreground: 38 89 82;
+    --accent: 203 212 106;
+    --accent-foreground: 38 89 82;
+    --destructive: 255 0 0;
+    --destructive-foreground: 255 255 255;
+    --border: 38 89 82;
+    --input: 38 89 82;
+    --ring: 203 212 106;
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 23 23 23;
+    --foreground: 255 255 255;
+    --card: 38 38 38;
+    --card-foreground: 255 255 255;
+    --popover: 38 38 38;
+    --popover-foreground: 255 255 255;
+    --primary: 203 212 106;
+    --primary-foreground: 23 23 23;
+    --secondary: 255 255 255;
+    --secondary-foreground: 23 23 23;
+    --muted: 64 64 64;
+    --muted-foreground: 200 200 200;
+    --accent: 203 212 106;
+    --accent-foreground: 23 23 23;
+    --destructive: 255 0 0;
+    --destructive-foreground: 255 255 255;
+    --border: 64 64 64;
+    --input: 64 64 64;
+    --ring: 203 212 106;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
