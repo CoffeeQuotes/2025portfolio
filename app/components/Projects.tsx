@@ -57,12 +57,24 @@ export default function Projects() {
   }
 
   return (
-    <section id="projects" className="py-20 px-4 bg-[#265952] dark:bg-[#1a1a1a]">
-      <div className="container mx-auto">
+    <section id="projects" className="py-20 px-4 relative">
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: 'url("https://images.unsplash.com/photo-1518655048521-f130df041f66?q=80&w=2070&auto=format&fit=crop")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
+        <div className="absolute inset-0 bg-[#565F63]/90 dark:bg-[#1a1a1a]/90" />
+      </div>
+
+      <div className="container mx-auto relative z-10">
         <h2 className="text-4xl font-bold mb-8 text-center font-serif text-white">Featured Projects</h2>
         <div className="grid gap-8 md:grid-cols-2">
           {projects.map((project) => (
-            <Card key={project.title} className="bg-white/10 border-[#CBD46A]/20">
+            <Card key={project.title} className="bg-white/10 border-[#B4ADD9]/20">
               <CardHeader>
                 <CardTitle className="text-white">{project.title}</CardTitle>
                 <CardDescription className="text-white/80">{project.description}</CardDescription>
@@ -77,7 +89,7 @@ export default function Projects() {
                 )}
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
-                    <Badge key={tech} variant="secondary" className="bg-[#CBD46A] text-[#265952] dark:text-[#1a1a1a]">{tech}</Badge>
+                    <Badge key={tech} variant="secondary" className="bg-[#B4ADD9] text-[#565F63] dark:text-[#1a1a1a]">{tech}</Badge>
                   ))}
                 </div>
               </CardContent>
@@ -85,7 +97,7 @@ export default function Projects() {
                 <Button 
                   variant="ghost" 
                   onClick={() => toggleProject(project.title)} 
-                  className="text-white hover:text-[#CBD46A] hover:bg-white/10"
+                  className="text-white hover:text-[#B4ADD9] hover:bg-white/10"
                 >
                   {expandedProject === project.title ? (
                     <>Less Info <ChevronUp className="ml-2 h-4 w-4" /></>

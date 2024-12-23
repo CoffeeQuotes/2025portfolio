@@ -28,13 +28,13 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 px-4 bg-white">
+    <section id="contact" className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-md">
-        <h2 className="text-4xl font-bold mb-8 text-center font-serif text-[#265952]">Contact Me</h2>
-        <Card className="bg-[#CBD46A]/10 border-[#265952]">
+        <h2 className="text-4xl font-bold mb-8 text-center font-serif text-foreground">Contact Me</h2>
+        <Card className="bg-card/10 border-muted hover:bg-card/20 transition-colors">
           <CardHeader>
-            <CardTitle className="text-[#265952]">Get in Touch</CardTitle>
-            <CardDescription className="text-[#265952]/80">I'd love to hear from you!</CardDescription>
+            <CardTitle className="text-foreground">Get in Touch</CardTitle>
+            <CardDescription className="text-muted-foreground">I'd love to hear from you!</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit}>
@@ -47,7 +47,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="border-[#265952] text-[#265952] placeholder-[#265952]/50"
+                    className="border-input bg-background text-foreground placeholder:text-muted-foreground"
                   />
                 </div>
                 <div>
@@ -58,7 +58,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="border-[#265952] text-[#265952] placeholder-[#265952]/50"
+                    className="border-input bg-background text-foreground placeholder:text-muted-foreground"
                   />
                 </div>
                 <div>
@@ -68,12 +68,17 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    className="border-[#265952] text-[#265952] placeholder-[#265952]/50"
+                    className="border-input bg-background text-foreground placeholder:text-muted-foreground"
                   />
                 </div>
               </div>
               <CardFooter className="px-0 pt-4">
-                <Button type="submit" className="w-full bg-[#265952] text-white hover:bg-[#265952]/90">Send Message</Button>
+                <Button 
+                  type="submit" 
+                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+                >
+                  Send Message
+                </Button>
               </CardFooter>
             </form>
           </CardContent>

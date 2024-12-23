@@ -33,19 +33,19 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-20 px-4 bg-white">
+    <section id="experience" className="py-20 px-4 bg-background">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold mb-8 text-center font-serif text-[#265952]">Experience</h2>
+        <h2 className="text-4xl font-bold mb-8 text-center font-serif text-foreground">Experience</h2>
         <div className="grid gap-8 md:grid-cols-2">
           {experiences.map((exp, index) => (
-            <Card key={index} className="bg-[#CBD46A]/10 border-[#265952]">
+            <Card key={index} className="bg-card/10 border-muted hover:bg-card/20 transition-colors">
               <CardHeader>
-                <CardTitle className="text-[#265952]">{exp.title}</CardTitle>
-                <CardDescription className="text-[#265952]/80">{exp.company}</CardDescription>
+                <CardTitle className="text-foreground">{exp.title}</CardTitle>
+                <CardDescription className="text-muted-foreground">{exp.company}</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-[#265952]/70 mb-4">{exp.period}</p>
-                <ul className="list-disc list-inside text-[#265952]">
+                <p className="text-sm text-muted-foreground mb-4">{exp.period}</p>
+                <ul className="list-disc list-inside text-foreground">
                   {exp.achievements.map((achievement, i) => (
                     <li key={i}>{achievement}</li>
                   ))}

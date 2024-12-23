@@ -17,8 +17,20 @@ export default function Skills() {
   const [hoveredCategory, setHoveredCategory] = useState<string | null>(null)
 
   return (
-    <section id="skills" className="py-20 px-4 bg-[#265952] dark:bg-[#1a1a1a]">
-      <div className="container mx-auto">
+    <section id="skills" className="py-20 px-4 relative">
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: 'url("https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?q=80&w=2070&auto=format&fit=crop")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
+        <div className="absolute inset-0 bg-[#565F63]/90 dark:bg-[#1a1a1a]/90" />
+      </div>
+
+      <div className="container mx-auto relative z-10">
         <h2 className="text-4xl font-bold mb-12 text-center font-serif text-white">Skills & Technologies</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {Object.entries(skills).map(([category, skillList]) => (
@@ -42,7 +54,7 @@ export default function Skills() {
                         variant="secondary" 
                         className={`text-sm py-1 px-2 ${
                           hoveredCategory === category
-                            ? 'bg-[#CBD46A] text-[#265952] dark:text-[#1a1a1a]'
+                            ? 'bg-[#B4ADD9] text-[#565F63] dark:text-[#1a1a1a]'
                             : 'bg-white/20 text-white'
                         } transition-colors duration-300`}
                       >

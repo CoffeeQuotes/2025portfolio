@@ -40,7 +40,7 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 py-4">
         <nav className="flex justify-between items-center">
-          <a href="#home" className="text-2xl font-serif font-bold text-[#CBD46A]">SK</a>
+          <a href="#home" className="text-2xl font-serif font-bold text-[#B4ADD9]">SK</a>
           
           <div className="hidden md:flex items-center space-x-4">
             {navItems.map((item) => (
