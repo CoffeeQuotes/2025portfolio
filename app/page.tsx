@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Blog from './components/Blog'
+import { ScrollIndicator } from './components/ui/scroll-indicator'
 
 export const metadata: Metadata = {
   title: 'Shishir Kumar - Full Stack Developer',
@@ -18,6 +19,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Header />
+      <ScrollIndicator />
       <main>
         <Hero />
         <About />

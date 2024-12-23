@@ -58,10 +58,7 @@ export default function Blog() {
   }
 
   return (
-    <SectionBackground 
-      imageUrl="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?q=80&w=2070&auto=format&fit=crop"
-      className="min-h-screen"
-    >
+    <section id="blog" className="py-20 px-4 bg-background">
       <h2 className="text-4xl font-bold mb-8 text-center font-serif text-foreground">Latest Blog Posts</h2>
       
       {error ? (
@@ -124,6 +121,6 @@ export default function Blog() {
           )}
         </div>
       )}
-    </SectionBackground>
+    </section>
   )
 } 

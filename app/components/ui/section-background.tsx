@@ -2,11 +2,12 @@ type SectionBackgroundProps = {
   imageUrl: string
   className?: string
   children: React.ReactNode
+  id?: string
 }
 
-export function SectionBackground({ imageUrl, className = "", children }: SectionBackgroundProps) {
+export function SectionBackground({ imageUrl, className = "", children, id }: SectionBackgroundProps) {
   return (
-    <section className={`relative py-20 px-4 ${className}`}>
+    <section id={id} className={`relative py-20 px-4 ${className}`}>
       <div 
         className="absolute inset-0 z-0"
         style={{

@@ -11,6 +11,7 @@ export default function Hero() {
     <SectionBackground 
       imageUrl="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
       className="min-h-screen flex items-center justify-center"
+      id="home"
     >
       <div className="text-center">
         <motion.div
