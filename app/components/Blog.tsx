@@ -64,7 +64,8 @@ export default function Blog() {
       {error ? (
         <div className="text-center text-red-500">
           <p>{error}</p>
-          <p className="text-sm mt-2">Please check back later</p>
+          {/* https://medium.com/@sky8052785942ocean */} 
+          <p className="text-sm mt-2">You can also check my blog on <a href="https://medium.com/@sky8052785942ocean" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors duration-300">Medium</a></p>
         </div>
       ) : (
         <div className="grid gap-8 md:grid-cols-3">
