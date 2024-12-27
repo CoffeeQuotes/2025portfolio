@@ -9,6 +9,7 @@ import Contact2 from './components/Contact2'
 import Footer2 from './components/Footer2'
 import Blog from './components/Blog'
 import { ScrollIndicator } from './components/ui/scroll-indicator'
+import Services from './components/Services'
 
 export const metadata: Metadata = {
   title: 'Shishir Kumar - Full Stack Developer',
@@ -26,6 +27,7 @@ export default function Home() {
       <main>
         <Hero2 />
         <About2 />
+        <Services />
         <Experience2 />
         <Skills2 />
         <Projects2 />
