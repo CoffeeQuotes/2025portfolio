@@ -87,7 +87,7 @@ export default function Hero2() {
               className="rounded-none border-primary text-foreground hover:bg-primary hover:text-primary-foreground"
               asChild
             >
-              <a href="/professional-cv.pdf" download>
+              <a href="/professional-cv.docx.pdf" download>
                 Download CV <Download className="ml-2 h-4 w-4" />
               </a>
             </Button>
