@@ -26,7 +26,7 @@ type Service = {
         "Mobile-friendly design to ensure a seamless experience on all devices.",
         "Integrated contact form to facilitate inquiries from potential customers."
       ],
-      "image": "/img/services/wordpress.png"
+      "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "WordPress E-commerce Website",
@@ -38,7 +38,7 @@ type Service = {
         "Attractive product pages with detailed descriptions, images, and variations.",
         "Basic inventory management to track stock levels."
       ],
-      "image": "/img/services/WooCommerce.png"
+      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Custom E-commerce Website",
@@ -51,7 +51,7 @@ type Service = {
         "Secure and reliable checkout process to build customer trust.",
         "Seamless integration with your existing business systems (CRM, ERP, etc.)."
       ],
-      "image": "/img/services/Ecommerce.png"
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Portfolio Website",
@@ -63,7 +63,7 @@ type Service = {
         "Easy-to-use contact form for potential clients to reach out.",
         "Optimized for search engines (SEO) to increase visibility."
       ],
-      "image": "/img/services/portfolio.png"
+      "image": "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Blogging Website",
@@ -75,7 +75,7 @@ type Service = {
         "Essential SEO plugins to improve search engine rankings.",
         "Integration with social media platforms to amplify your reach."
       ],
-      "image": "/img/services/Blogging.png"
+      "image": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Corporate Website",
@@ -87,7 +87,7 @@ type Service = {
         "Customizable forms for lead generation and data collection.",
         "Option for integration with your Customer Relationship Management (CRM) system."
       ],
-      "image": "/img/services/corporate.png"
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Educational Website",
@@ -99,7 +99,7 @@ type Service = {
         "Tools for managing courses, assignments, and student grades.",
         "Secure user login and progress tracking to monitor student engagement."
       ],
-      "image": "/img/services/Educational.png"
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Custom Web Application",
@@ -111,7 +111,7 @@ type Service = {
         "Custom-built features to address your specific business requirements.",
         "Role-based access control for secure management of user permissions."
       ],
-      "image": "/img/services/webapplication.png"
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Landing Page Website",
@@ -122,7 +122,7 @@ type Service = {
         "Integrated forms to capture valuable lead information.",
         "Clean and minimalistic design to maximize focus and conversion rates."
       ],
-      "image": "/img/services/landingpage.png"
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Event Management Website",
@@ -134,7 +134,7 @@ type Service = {
         "Secure payment gateway integration for processing ticket purchases.",
         "RSVP functionality to track attendance."
       ],
-      "image": "/img/services/eventmanagement.png"
+      "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "News/Media Website",
@@ -145,7 +145,7 @@ type Service = {
         "Option for user subscription models to generate recurring revenue and build a loyal audience.",
         "Strategic placement for advertisements to monetize your content."
       ],
-      "image": "/img/services/newsmedia.png"
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Travel/Tourism Website",
@@ -157,7 +157,7 @@ type Service = {
         "Secure payment integration for online transactions.",
         "Itinerary management tools for organizing travel plans."
       ],
-      "image": "/img/services/traveltourism.png"
+      "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Healthcare/Clinic Website",
@@ -169,7 +169,7 @@ type Service = {
         "Secure contact forms for inquiries and communication.",
         "Integration with a health blog to share valuable information and engage patients."
       ],
-      "image": "/img/services/healthcare.png"
+      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Real Estate Website",
@@ -181,7 +181,7 @@ type Service = {
         "Advanced search filters to help users find their ideal property.",
         "Lead capture forms to connect with interested buyers and sellers."
       ],
-      "image": "/img/services/realstate.png"
+      "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Membership Website",
@@ -193,7 +193,7 @@ type Service = {
         "Content restriction features to manage access for different membership levels.",
         "Seamless payment integration for recurring subscriptions."
       ],
-      "image": "/img/services/membership.png"
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Restaurant/Food Delivery Website",
@@ -205,7 +205,7 @@ type Service = {
         "Integration with food delivery platforms for expanded reach.",
         "Secure payment gateway for online order processing."
       ],
-      "image": "/img/services/Restaurant.png"
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Job Portal Website",
@@ -218,7 +218,7 @@ type Service = {
         "Dedicated admin panel for managing users and job postings.",
         "Payment features for recruiters to post premium job listings."
       ],
-      "image": "/img/services/jobsportal.png"
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Forum/Community Website",
@@ -230,7 +230,7 @@ type Service = {
         "Moderation tools to ensure a positive and productive environment.",
         "Notification system to keep users informed of new discussions and replies."
       ],
-      "image": "/img/services/forum.png"
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Crowdfunding Website",
@@ -241,7 +241,7 @@ type Service = {
         "Visually appealing project showcase with progress tracking.",
         "Social sharing tools to amplify reach and encourage support."
       ],
-      "image": "/img/services/crowdfunding.png"
+      "image": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "websiteType": "Multilingual Website",
@@ -252,7 +252,7 @@ type Service = {
         "Localization features to adapt content to different regional preferences.",
         "SEO optimization strategies for targeting different language markets."
       ],
-      "image": "/img/services/multilingual.png"
+      "image": "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ]; 
 export default function Services() {
